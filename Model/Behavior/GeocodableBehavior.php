@@ -51,6 +51,9 @@ class GeocodableBehavior extends ModelBehavior {
         $parameters['address'] = $address;
         $parameters['sensor'] = 'false';
         
+        if(empty($address)){
+          return true;
+        }
         $http = new HttpSocket();
         
         $response = $http->get('http://maps.googleapis.com/maps/api/geocode/json', $parameters);

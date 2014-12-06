@@ -15,5 +15,6 @@
     },
     "extra": {
         "installer-name": "Geocoding"
-    }
+    },
+    "minimum-stability": "dev"
 }

@@ -1,5 +1,5 @@
 {
-    "name": "teodortalov/Geocoder",
+    "name": "teodortalov/cakephp-geocoding-plugin",
     "type": "cakephp-plugin",
     "keywords": [
         "cakephp",

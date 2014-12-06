@@ -1,0 +1,11 @@
+{
+    "name": "teodortalov/cakephp-geocoding-plugin",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "geocoding", "geocoding behavoior”, “geocoding component”],
+    "homepage": "https://github.com/teodortalov/cakephp-geocoding-plugin",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "composer/installers": "*"
+    },
+}
